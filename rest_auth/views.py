@@ -1,10 +1,11 @@
+# -*- coding: utf-8 -*-
 from django.contrib.auth import (
     login as django_login,
     logout as django_logout
 )
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import ugettext as _
 
 from rest_framework import status
 from rest_framework.views import APIView
